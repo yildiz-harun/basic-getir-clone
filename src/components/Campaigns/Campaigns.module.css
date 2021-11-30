@@ -1,0 +1,34 @@
+.Campaigns {
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    margin-top: 2%;
+}
+
+.container {
+    width: 85%;
+}
+
+.header {
+    margin-top: 3%;
+}
+
+.campaignItems {
+    display: flex;
+}
+
+.campaignItem {
+    margin: 10px 10px 0 0;
+    width: 400px;
+    height: 200px;
+}
+
+.campaignImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}

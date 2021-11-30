@@ -1,0 +1,43 @@
+.Categories {
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 85%;
+}
+
+.header {
+    margin-top: 10px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.item {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemImage {
+    border-radius: 10px;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.itemName {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.87);
+}
